@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uas Pemweb</title>
+    <link rel="stylesheet" href="booking.css">
+
+    <!-- ini untuk font quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <h1><span class="judul">CEPENG</span>Hotel</h1>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kamar.html">Kamar</a></li>
+                    <li><a href="ballroom.html">Ballroom</a></li>
+                    <li><a href="#" style="color: yellow; border-bottom: 3px solid yellow;">Booking</a></li>
+                    <li><a href="hubungikami.html">Hubungi Kami</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="container">
+                <h1>HOTEL RESERVATION</h1>
+
+                <form class="form-wrapper" action="terimakasih.html" method="post">
+                        <label for="checkIn">Check In :</label>
+                        <input type="date" id="checkIn">
+                        <label for="checkOut">Check Out :</label>
+                        <input type="date" id="checkOut">
+
+                        <label for="jmlKamar">Jumlah Kamar:</label>
+                        <select name="jmlKamar" id="jmlKamar">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Isi Email Anda Disini">
+
+                        <label for="wa">No WhatsApp</label>
+                        <input type="number" placeholder="Isi No WhatsApp Anda Disini">
+
+                        <br>
+                        <br>
+                        <input type="submit" value="Pesan Sekarang"> 
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <p>	&#169; Copyright By CEPENGHotel 2023</p>
+        </footer>
+</body>
+</html>

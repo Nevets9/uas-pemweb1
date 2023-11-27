@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url(img/hotel.jpg);
+    background-size: cover;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #04364A;
+    height: 70px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 999;
+}
+
+header h1{
+    margin-left: 30px;
+    color: white;
+}
+
+header h1 .judul{
+    color: yellow;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+
+.tyty {
+    text-align: center;
+    margin-top: 20px;
+    width:800px;
+    padding: 40px;
+    border: 2px solid #04364A;
+    border-radius: 8px;
+    background-color: white;
+    margin: 10px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #04364A;
+    font-weight: bold;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}

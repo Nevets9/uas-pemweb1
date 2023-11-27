@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding :0;
+}
+
+body{
+    font-family: 'quicksand', sans-serif;
+    background-image: url(img/hotel.jpg);
+    background-size: cover;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #04364A;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header h1{
+    margin-left: 30px;
+    color: white;
+}
+
+header h1 .judul{
+    color: yellow;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+
+main {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+main .container{
+    padding: 30px;
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+main .container .form-wrapper{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+main .container .form-wrapper input[type="date"],
+main .container .form-wrapper input[type="email"],
+main .container .form-wrapper input[type="number"],
+main .container .form-wrapper select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+main .form-wrapper input[type="submit"] {
+    background-color:#176B87 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+main .form-wrapper input[type="submit"]:hover{
+    background-color: #04364A;
+    font-weight: bold; 
+}
+
+footer{
+    margin-top: 70px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04364A;
+    color: white;
+    font-weight: bold;
+}

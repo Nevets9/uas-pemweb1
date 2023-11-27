@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding :0;
+}
+
+body{
+    font-family: 'quicksand', sans-serif;
+    background-color: #dafffb;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #04364A;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header h1{
+    margin-left: 30px;
+    color: white;
+}
+
+header h1 .judul{
+    color: yellow;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+
+main{
+    padding-top: 65px;
+}
+
+main img{
+    width: 100%;
+    height: 800px;
+}
+
+main p{
+    margin-right: 30px;
+    background-color: #176B87;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    width: 900px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+main .beranda .tampilan-kamar{
+    background-color:#176B87;
+    height: 320px;
+    width: 1300px;
+    border-radius: 10px;
+    padding: 20px 0 20px 40px;
+    margin: 80px 0 0 40px;
+}
+
+main .beranda .tampilan-kamar h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid white;
+    width: 250px;
+    margin-bottom: 32px;
+}
+
+main .beranda .tampilan-kamar .kamar{
+    display: flex;
+    gap: 15px;
+}
+
+main .beranda .tampilan-kamar .kamar .card{
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+main .beranda .tampilan-kamar .kamar .card img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+}
+
+main .beranda .tampilan-kamar .kamar .card a{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    opacity: 0;
+    position: absolute;
+    top: 0; 
+}
+
+main .beranda .tampilan-kamar .kamar .card:hover img{
+    opacity: 1;
+    border:0;
+}
+
+main .beranda .tampilan-kamar .kamar .card:hover a{
+    opacity: .8;
+    cursor: pointer;
+}
+
+main .beranda .tampilan-fasilitas{
+    background-color: #176B87;
+    height: 320px;
+    width: 1300px;
+    border-radius: 10px;
+    padding: 20px 0 20px 40px;
+    margin: 80px 40px 20px 0;
+    position: absolute;
+    right: 0;
+}
+
+main .beranda .tampilan-fasilitas h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid white;
+    width: 250px;
+    margin-bottom: 32px;
+}
+
+main .beranda .tampilan-fasilitas .fasilitas{
+    display: flex;
+    gap: 15px;
+}
+
+main .beranda .tampilan-fasilitas .fasilitas img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+.wrapper-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-top: 540px;
+    }
+
+.wrapper-kamar {
+      background-image: url(img/kamar1.jpg);
+      width: 400px;
+      height: 300px;
+      border: 5px solid #176B87;
+      background-size: cover;
+      color: white;
+      font-weight: bold;
+      font-size: larger;
+      border-radius: 20px;
+    }
+
+.wrapper-kamar .kolom-kamar {
+      height: 300px;
+      width: 400px;
+    }
+
+.wrapper-kamar .kolom-kamar .dalem-kamar {
+      position: relative;
+    }
+
+.wrapper-kamar .kolom-kamar .dalem-kamar a {
+      position: absolute;
+      color: white;
+      font-size: 200%;
+      text-decoration: none;
+      width: 400px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.2s;
+    }
+
+.wrapper-kamar .kolom-kamar .dalem-kamar a:hover{
+        opacity: 0.8;
+        background-color: black;
+    }
+
+.wrapper-booking {
+      background-image: url(img/booking.jpeg);
+      background-size: cover;
+      width: 400px;
+      height: 300px;
+      border: 5px solid #176B87;
+      color: white;
+      font-weight: bold;
+      font-size: larger;
+      border-radius: 20px;
+      display: flex;
+    }
+
+.wrapper-booking .kolom-booking {
+      height: 300px;
+      width: 400px;
+    }
+
+.wrapper-booking .kolom-booking .dalem-booking {
+      position: relative;
+    }
+
+.wrapper-booking .kolom-booking .dalem-booking a {
+      position: absolute;
+      color: white;
+      font-size: 200%;
+      text-decoration: none;
+      width: 400px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.2s;
+    }
+
+.wrapper-booking .kolom-booking .dalem-booking a:hover{
+        opacity: 0.8;
+        background-color: black;
+    }
+
+.wrapper-hubungi {
+      background-image: url(img/ballroom2.jpg);
+      width: 400px;
+      height: 300px;
+      border: 5px solid #176B87;
+      background-size: cover;
+      color: white;
+      font-weight: bold;
+      font-size: larger;
+      border-radius: 20px;
+    }
+
+.wrapper-booking .kolom-hubungi {
+      height: 300px;
+      width: 400px;
+
+    }
+.wrapper-hubungi .kolom-hubungi .dalem-hubungi {
+      position: relative;
+      
+    }
+
+.wrapper-hubungi .kolom-hubungi .dalem-hubungi a {
+      position: absolute;
+      color: white;
+      font-size: 200%;
+      text-decoration: none;
+      width: 400px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.2s;
+    }
+
+.wrapper-hubungi .kolom-hubungi .dalem-hubungi a:hover{
+        background-color: black;
+        opacity: 0.8;
+    }
+
+.row-content-wow .hotel-reservation-text-center {
+      margin-left: 50px;
+    }
+
+.hotel-reservation-text-center h1 {
+      margin-left: 50px;
+    }
+
+
+footer{
+    margin-top: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04364A;
+    color: white;
+    font-weight: bold;
+}
+

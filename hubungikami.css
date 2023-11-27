@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding :0;
+}
+
+body{
+    font-family: 'quicksand', sans-serif;
+    background-size: cover;
+    background-image: url(img/hotel.jpg);
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#04364A;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header h1{
+    margin-left: 30px;
+    color: white;
+}
+
+header h1 .judul{
+    color: yellow;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+
+
+.container {
+    margin: auto;
+    margin-top: 120px;
+    color: #04364A;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="hp"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form input[type="submit"] {
+    background-color:#176B87 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]:hover{
+    background-color: #04364A;
+    font-weight: bold; 
+}
+
+.icon{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    list-style: none;
+    padding-left: 3%;
+}
+.fa-phone{
+    cursor: pointer;
+    background-color: #64CCC5;
+    color:white ;
+    padding: 10px;
+    width: 100px    
+}
+
+.fa-phone:hover{
+   background-color: #04364A; 
+}
+
+.fa-whatsapp{
+    cursor: pointer;
+    background-color:#64CCC5;
+    color:white ;
+    padding: 10px;
+    width: 100px; 
+}
+
+.fa-whatsapp:hover{
+    background-color: #04364A; 
+}
+
+.fa-location-dot{
+    cursor: pointer;
+    background-color:#64CCC5;
+    color:white ;
+    padding: 10px;
+    width: 100px; 
+}
+
+.fa-location-dot:hover{
+    background-color: #04364A; 
+}
+
+.fa-envelope{
+    cursor: pointer;
+    background-color: #64CCC5;
+    color:white ;
+    padding: 10px;
+    width: 100px; 
+}
+
+.fa-envelope:hover{
+    background-color: #04364A; 
+}
+
+footer{
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #04364A;
+    font-weight: bold;
+}

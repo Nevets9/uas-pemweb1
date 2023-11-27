@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  body {
+    font-family: "quicksand", sans-serif;
+    background-color: #dafffb;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #04364a;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+
+  header h1 {
+    margin-left: 30px;
+    color: white;
+  }
+
+  header h1 .judul{
+  color: yellow;
+  }
+
+  header nav {
+    width: 50%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+  }
+
+  header nav ul li {
+    list-style: none;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  header nav ul li a:hover {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+  }
+
+  main {
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1800px;
+  }
+
+  main .container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  main .container .card-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 800px;
+  }
+
+  main .container .card{
+      width: 1400px;
+      height: 300px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 5px solid #176B87;
+      margin-bottom: 50px;
+  }
+  
+  main .container .card img {
+    width: 400px;
+    height: 300px;
+    border: 3px solid #04364A;
+    border-radius: 20px;
+  }
+
+  main .container .card .kamar{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      margin-left: 20px;
+  }
+  main .container .card .kamar h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #04364a;
+    border-bottom: 3px solid #04364a;
+    width: 230px;
+  }
+
+  main .container .card .kamar p{
+      margin-top: 20px;
+      font-size: 18px;
+      text-align: justify;
+  }
+
+  main .container .card .kamar a{
+      background-color: #04364a;
+      color: white;
+      font-weight: bold;
+      height: 30px;
+      width: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 20px;
+  }
+
+  main .container .card .kamar a:hover{
+      background-color: #176B87;
+  }
+
+  main .wrapper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 800px;
+  }
+
+  main .wrapper-kamar {
+    background-image: url(img/ballroom2.jpg);
+    width: 400px;
+    height: 300px;
+    border: 5px solid #176B87;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+  }
+
+  main .wrapper-kamar .kolom-kamar {
+    height: 300px;
+    width: 400px;
+  }
+
+  main .wrapper-kamar .kolom-kamar .dalem-kamar {
+    position: relative;
+  }
+
+  main .wrapper-kamar .kolom-kamar .dalem-kamar a {
+    position: absolute;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+  }
+
+  main .wrapper-kamar .kolom-kamar .dalem-kamar a:hover{
+      opacity: 0.8;
+      background-color: black;
+  }
+
+  main .wrapper-booking {
+    background-image: url(img/booking.jpeg);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    border: 5px solid #176B87;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  main .wrapper-booking .kolom-booking {
+    height: 300px;
+    width: 400px;
+  }
+
+  main .wrapper-booking .kolom-booking .dalem-booking {
+    position: relative;
+  }
+
+  main .wrapper-booking .kolom-booking .dalem-booking a {
+    position: absolute;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+  }
+
+  main .wrapper-booking .kolom-booking .dalem-booking a:hover{
+      opacity: 0.8;
+      background-color: black;
+  }
+
+  main .wrapper-hubungi {
+    background-image: url(img/hubkami.jpeg);
+    width: 400px;
+    height: 300px;
+    border: 5px solid #176B87;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+  }
+
+  main .wrapper-booking .kolom-hubungi {
+    height: 300px;
+    width: 400px;
+
+  }
+
+  main .wrapper-hubungi .kolom-hubungi .dalem-hubungi {
+    position: relative;
+    
+  }
+
+  main .wrapper-hubungi .kolom-hubungi .dalem-hubungi a {
+    position: absolute;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+  }
+
+  main .wrapper-hubungi .kolom-hubungi .dalem-hubungi a:hover{
+      background-color: black;
+      opacity: 0.8;
+  }
+
+  main .row-content-wow .hotel-reservation-text-center {
+    margin-left: 50px;
+  }
+
+  main .hotel-reservation-text-center h1 {
+    margin-left: 50px;
+  }
+
+  footer{
+  margin-top: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #04364A;
+  color: white;
+  font-weight: bold;
+}
