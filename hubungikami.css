@@ -93,7 +93,7 @@ header nav ul li a:hover{
     font-size: 16px;
 }
 
-.contact-form a {
+.container .contact-form a {
     box-sizing: border-box;
     background-color:#176B87 ;
     color: white;
@@ -104,7 +104,7 @@ header nav ul li a:hover{
     font-size: 16px;
     text-decoration: none;
 }
-.contact-form a:hover{
+.container .contact-form a:hover{
     background-color: #04364A;
     font-weight: bold; 
 }
