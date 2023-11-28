@@ -103,11 +103,11 @@ main .form-wrapper a {
     text-decoration:none;
     background-color:#176B87 ;
     color: white;
-    padding: 20px 80px;
+    padding: 14px 80px;
     margin: 8px auto;
-    border: none;
     width: 100%;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 main .form-wrapper a:hover{
