@@ -127,6 +127,7 @@ main .beranda .tampilan-kamar .kamar .card a{
     opacity: 0;
     position: absolute;
     top: 0; 
+    text-decoration: none;
 }
 
 main .beranda .tampilan-kamar .kamar .card:hover img{
