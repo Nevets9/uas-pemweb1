@@ -94,6 +94,7 @@ header nav ul li a:hover{
 }
 
 .contact-form a {
+    box-sizing: border-box;
     background-color:#176B87 ;
     color: white;
     padding: 14px 305px;
