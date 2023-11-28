@@ -99,17 +99,17 @@ main .form-wrapper select{
     font-size: 16px;
 }
 
-main .form-wrapper input[type="submit"] {
+main .form-wrapper a {
     background-color:#176B87 ;
     color: white;
-    padding: 14px 20px;
+    padding: 14px 305px;
     margin: 8px 0;
     border: none;
     width: 100%;
     font-size: 16px;
 }
 
-main .form-wrapper input[type="submit"]:hover{
+main .form-wrapper a:hover{
     background-color: #04364A;
     font-weight: bold; 
 }
